@@ -1,0 +1,53 @@
+/* style.css */
+
+/* Estilos globales para el cuerpo del documento */
+body {
+    font-family: 'Inter', sans-serif; /* Aplica la fuente Inter */
+    background-color: #f8fafc; /* Color de fondo suave */
+    color: #334155; /* Color de texto principal */
+}
+
+/* Estilo para el fondo con gradiente (usado en Hero y Call to Action) */
+.gradient-bg {
+    background: linear-gradient(to right, #6366f1, #8b5cf6); /* Gradiente de morado a púrpura */
+}
+
+/* Estilos para el botón principal */
+.btn-primary {
+    padding-left: 1.5rem; /* px-6 */
+    padding-right: 1.5rem; /* px-6 */
+    padding-top: 0.75rem; /* py-3 */
+    padding-bottom: 0.75rem; /* py-3 */
+    background-color: #4f46e5; /* indigo-600 */
+    color: #ffffff; /* text-white */
+    font-weight: 600; /* font-semibold */
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-duration: 300ms; /* duration-300 */
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); /* ease-in-out */
+}
+
+.btn-primary:hover {
+    background-color: #4338ca; /* indigo-700 */
+}
+
+/* Estilos para las tarjetas de servicio y proyecto */
+.card {
+    background-color: #ffffff; /* bg-white */
+    padding: 1.5rem; /* p-6 */
+    border-radius: 0.75rem; /* rounded-xl */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+    transition-property: box-shadow;
+    transition-duration: 300ms; /* duration-300 */
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); /* ease-in-out */
+}
+
+.card:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); /* hover:shadow-xl */
+}
+
+/* Estilos para el scroll suave de la página */
+html {
+    scroll-behavior: smooth;
+}

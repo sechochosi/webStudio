@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SynthEX Studio</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Enlace a nuestro archivo CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Carga de la fuente Inter de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center flex-wrap">
+            <a href="#" class="text-2xl font-bold text-indigo-700 flex items-center">
+                <img src="/2025.png" alt="SynthEX Studio Logo" class="h-10 w-10 mr-2 rounded-full">
+                SynthEX Studio
+            </a>
+
+            <nav class="flex-grow flex justify-end">
+                <ul class="flex space-x-6">
+                    <li><a href="#inicio" class="text-gray-600 hover:text-indigo-700 font-medium">Inicio</a></li>
+                    <li><a href="#servicios" class="text-gray-600 hover:text-indigo-700 font-medium">Servicios</a></li>
+                    <li><a href="#nosotros" class="text-gray-600 hover:text-indigo-700 font-medium">Nosotros</a></li>
+                    <li><a href="#contacto" class="text-gray-600 hover:text-indigo-700 font-medium">Contacto</a></li>
+                    <li><a href="#cotizar" class="btn-primary">Cotizar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="gradient-bg text-white py-20 md:py-32 text-center rounded-b-3xl">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-up">
+                Potencia tu negocio con <br class="hidden md:inline">soluciones tecnológicas innovadoras
+            </h1>
+            <p class="text-lg md:text-xl mb-8 opacity-90 animate-fade-in-up delay-200">
+                Ofrecemos estrategias digitales a medida para impulsar tu crecimiento y eficiencia.
+            </p>
+            <a href="#servicios" class="btn-primary inline-block animate-fade-in-up delay-400">Más información</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Nuestros Servicios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card text-center">
+                    <svg class="h-16 w-16 mx-auto text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700">Desarrollo Web</h3>
+                    <p class="text-gray-600">Creación de sitios web modernos, responsivos y optimizados para el rendimiento y la experiencia del usuario.</p>
+                </div>
+
+                <div class="card text-center">
+                    <svg class="h-16 w-16 mx-auto text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700">Diseño Grafico</h3>
+                    <p class="text-gray-600">Creación de mensajes visuales usando imágenes, colores y tipografías para comunicar ideas de forma clara y atractiva.</p>
+                </div>
+
+                <div class="card text-center">
+                    <svg class="h-16 w-16 mx-auto text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.001 12.001 0 002.92 12c0 3.072 1.871 5.765 4.501 7.232l-.004.002h.001L12 21.002l4.501-1.768.001-.002A12.001 12.001 0 0021.08 12c0-3.072-1.87-5.765-4.501-7.232z"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700">Consultoría Tecnológica</h3>
+                    <p class="text-gray-600">Asesoramiento experto para la implementación de las mejores soluciones tecnológicas en tu empresa.</p>
+                </div>
+
+                <div class="card text-center">
+                    <svg class="h-16 w-16 mx-auto text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700">Fotografía Profesional</h3>
+                    <p class="text-gray-600">Capturamos imágenes de alta calidad que transmiten emociones, cuentan historias y realzan la esencia de personas, productos o eventos.</p>
+                </div>
+
+                <div class="card text-center">
+                    <svg class="h-16 w-16 mx-auto text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3 .895 3 2s-1.343 2-3 2 3 .895 3 2-1.343 2-3 2m0-8V9m0 3v2m0 3v2M9 12H7.5M15 12h1.5m-6 2h.01M12 7.5V6m0 12v-1.5"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700"> Intelive Gym Access</h3>
+                    <p class="text-gray-600">Sistema RFID de vanguardia para control de acceso con gestión de pagos integrada. Diseñado específicamente para dueños de gimnasios que buscan optimizar sus operaciones.</p>
+                </div>
+
+                <div class="card text-center">
+                    <svg class="h-16 w-16 mx-auto text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700">Seguridad Informatica</h3>
+                    <p class="text-gray-600">Protegemos sistemas, redes y datos contra accesos no autorizados, amenazas digitales y ciberataques para garantizar tu información segura.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="py-16 md:py-24 bg-gray-50 rounded-b-3xl">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-gray-800">Quiénes Somos</h2>
+            <div class="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
+                <p class="mb-6">
+                    En <span class="font-semibold text-indigo-700">SynthEX Studio</span>, somos un equipo apasionado por la tecnología y dedicado a impulsar el éxito de pequeñas y medianas empresas. Creemos que la innovación tecnológica no debe ser un lujo, sino una herramienta accesible para todos los negocios que buscan crecer y prosperar en la era digital.
+                </p>
+                <p class="mb-6">
+                    Nuestra misión es simple: proporcionar soluciones tecnológicas a medida que resuelvan los desafíos específicos de tu negocio, optimicen tus operaciones y te posicionen un paso adelante de la competencia. Desde el desarrollo de una presencia web robusta hasta estrategias de marketing digital que generen resultados, estamos aquí para ser tu socio tecnológico de confianza.
+                </p>
+                <p>
+                    Con años de experiencia en el sector y un enfoque centrado en el cliente, nos esforzamos por construir relaciones duraderas basadas en la confianza y el éxito mutuo. Tu crecimiento es nuestro objetivo.
+                </p>
+            </div>
+<!--
+            <h3 class="text-2xl font-bold text-gray-800 mt-16 mb-8">Nuestro Team</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="flex flex-col items-center">
+                    <img src="https://placehold.co/150x150/e0e7ff/4f46e5?text=Foto+Usuario" alt="Miembro del Equipo 1" class="w-32 h-32 rounded-full object-cover shadow-md mb-4">
+                    <h4 class="text-lg font-semibold text-gray-800">Juan Pérez</h4>
+                    <p class="text-indigo-600">CEO & Fundador</p>
+                    <p class="text-gray-600 text-sm mt-1">Apasionado por la estrategia y el crecimiento empresarial.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://placehold.co/150x150/e0e7ff/4f46e5?text=Foto+Usuario" alt="Miembro del Equipo 2" class="w-32 h-32 rounded-full object-cover shadow-md mb-4">
+                    <h4 class="text-lg font-semibold text-gray-800">María García</h4>
+                    <p class="text-indigo-600">Directora de Operaciones</p>
+                    <p class="text-gray-600 text-sm mt-1">Experta en eficiencia de procesos y gestión de proyectos.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://placehold.co/150x150/e0e7ff/4f46e5?text=Foto+Usuario" alt="Miembro del Equipo 3" class="w-32 h-32 rounded-full object-cover shadow-md mb-4">
+                    <h4 class="text-lg font-semibold text-gray-800">Carlos Sánchez</h4>
+                    <p class="text-indigo-600">Líder de Desarrollo</p>
+                    <p class="text-gray-600 text-sm mt-1">Innovador en soluciones de software y desarrollo web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <section id="contacto" class="py-16 md:py-24 bg-gray-50 rounded-t-3xl">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-gray-800">Contáctanos</h2>
+            <div class="max-w-md mx-auto bg-white p-8 rounded-xl shadow-lg">
+                <p class="text-gray-600 mb-6">¿Listo para impulsar tu negocio? Envíanos un mensaje y nos pondremos en contacto.</p>
+                <!-- Formulario conectado a Gmail, ¡CAMBIA 'tu.email@ejemplo.com' POR TU EMAIL REAL! -->
+                <form action="mailto:sebas.a2035@gmail.com?subject=Consulta%20desde%20la%20web" method="post" enctype="text/plain">
+                    <div class="mb-4 text-left">
+                        <label for="name" class="block text-gray-700 text-sm font-semibold mb-2">Nombre:</label>
+                        <input type="text" id="name" name="Nombre" class="shadow-sm appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Tu nombre completo" required>
+                    </div>
+                    <div class="mb-4 text-left">
+                        <label for="email" class="block text-gray-700 text-sm font-semibold mb-2">Email:</label>
+                        <input type="email" id="email" name="Email" class="shadow-sm appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="tu.email@ejemplo.com" required>
+                    </div>
+                    <div class="mb-6 text-left">
+                        <label for="message" class="block text-gray-700 text-sm font-semibold mb-2">Mensaje:</label>
+                        <textarea id="message" name="Mensaje" rows="5" class="shadow-sm appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Describe tu proyecto o consulta..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary w-full">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="cotizar" class="gradient-bg text-white py-16 md:py-20 text-center rounded-b-3xl">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">¿Necesitas una solución a medida?</h2>
+            <p class="text-lg md:text-xl mb-8 opacity-90">
+                Obtén una cotización gratuita para tu proyecto hoy mismo.
+            </p>
+            <a href="#contacto" class="btn-primary bg-white text-indigo-600 hover:bg-gray-100">Solicitar Cotización</a>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <p>&copy; 2025 SynthEX Studio. Todos los derechos reservados.</p>
+            <div class="flex space-x-4 mt-4 md:mt-0">
+                <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+
+
+                <a href="https://www.instagram.com/synthex2024/" class="text-gray-400 hover:text-white transition-colors duration-300">
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12 0C8.74 0 8.333.014 7.053.072 5.775.132 4.96.28 4.253.53c-.715.253-1.292.57-1.84.877-.55.313-1.026.697-1.485 1.156-.46.46-.84.938-1.157 1.487-.313.548-.56 1.125-.813 1.84-.25.713-.4 1.528-.462 2.805-.058 1.28-.072 1.683-.072 4.004s.014 2.723.072 4.003c.06 1.277.207 2.093.46 2.805.253.715.57 1.292.877 1.84.313.55.697 1.026 1.156 1.485.46.46.938.84 1.487 1.157.548.313 1.125.56 1.84.813.713.25 1.528.4 2.805.462 1.28.058 1.683.072 4.004.072s2.723-.014 4.003-.072c1.277-.06 2.093-.207 2.805-.46.715-.253 1.292-.57 1.84-.877.55-.313 1.026-.697 1.485-1.156.46-.46.84-.938 1.157-1.487.313-.548.56-1.125.813-1.84-.25-.713-.4-1.528-.462-2.805-.058-1.28-.072-1.683-.072-4.004s-.014-2.723-.072-4.003c-.06-1.277-.207-2.093-.46-2.805-.253-.715-.57-1.292-.877-1.84-.313-.55-.697-1.026-1.156-1.485-.46-.46-.938-.84-1.487-1.157-.548-.313-1.125-.56-1.84-.813-.713-.25-1.528-.4-2.805-.462C15.667.014 15.26 0 12 0zm0 2.16c3.2 0 3.585.016 4.85.074 1.17.056 1.812.232 2.274.404.456.176.79.37.954.534.16.16.358.493.533.954.172.462.348 1.104.406 2.274.058 1.265.074 1.65.074 4.85s-.016 3.585-.074 4.85c-.056 1.17-.232 1.812-.404 2.274-.176.456-.37.79-.534.954-.16.16-.493.358-.954.533-.462.172-1.104.348-2.274.406-1.265.058-1.65.074-4.85.074s-3.585-.016-4.85-.074c-1.17-.056-1.812-.232-2.274-.404-.456-.176-.79-.37-.954-.534-.16-.16-.358-.493-.533-.954-.172-.462-.348-1.104-.406-2.274-.058-1.265-.074-1.65-.074-4.85s.016-3.585.074-4.85c.056-1.17.232-1.812.404-2.274.176-.456.37-.79.534-.954.16-.16.493-.358.954-.533.462-.172 1.104-.348 2.274-.406C8.415 2.16 8.79 2.16 12 2.16zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.99a3.145 3.145 0 100 6.29 3.145 3.145 0 000-6.29zm6.52-.76c.784 0 1.425.64 1.425 1.424S19.304 9.52 18.52 9.52s-1.425-.64-1.425-1.424.64-1.424 1.424-1.424z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
